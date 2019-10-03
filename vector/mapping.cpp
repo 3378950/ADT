@@ -19,7 +19,7 @@ void print_all(const T &data)
 int main()
 {
 	vector<int> scores;
-	//¶àÂ··ÖÖ§
+	//å¤šè·¯åˆ†æ”¯
 	vector<int>nums(11,0);
 	for(size_t i=0;i<scores.size();++i){
 		if(scores[i]<10)      nums[0]++;
@@ -33,19 +33,19 @@ int main()
 		else if(scores[i]<90) nums[8]++;
 		else nums[9]++;
 	}
-	//ÓÅ»¯
+	//ä¼˜åŒ–
 	for(size_t i=0;i<scores.size();++i)
 	++nums[scores[i]/10];
-	//»ùÓÚ·¶Î§
+	//åŸºäºŽèŒƒå›´
 	for(const auto &x:scores)
 	++nums[x/10];
 	nums[9]+=num[10];
 	nums.pop_back();
-	//Ã¿ÖÖÊý×Ö³öÏÖµÄ´ÎÊý
+	//æ¯ç§æ•°å­—å‡ºçŽ°çš„æ¬¡æ•°
 	vector<int>nums2(101,0);
 	for(size_t i = 0;i<scores.size();++i)
 	nums2[scores[i]]++;
-	//
+
 	for(const auto&x:scores)
 	nums2[x]++;
 
