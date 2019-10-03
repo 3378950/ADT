@@ -7,11 +7,11 @@ int main()
 	cin>>name;
 	cout<<"hello"<<name<<endl;
 	cout<<name.size()<<endl;
-	name = name+"and"+name;//Æ´½Ó 
+	name = name+"and"+name;//æ‹¼æŽ¥ 
 	cout<<name<<endl;
 	string a = "c";
 	string b = "++";
-	auto c = a+b;//×Ô¶¯ÀàÐÍÍÆµ¼ 
-	cout<<c<<endl;//DEV c++±àÒëÆ÷ÓÐÎÊÌâ£» 
+	auto c = a+b;//è‡ªåŠ¨ç±»åž‹æŽ¨å¯¼ 
+	cout<<c<<endl;//DEV c++ç¼–è¯‘å™¨æœ‰é—®é¢˜ï¼› 
 	return 0;
  } 
