@@ -1,2 +1,2 @@
 # ADT
-Describing abstract data types with C++ language
+Describing abstract data types with C and C++ language
