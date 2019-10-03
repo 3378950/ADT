@@ -1,28 +1,30 @@
 #include<iostream>
 #include<vector>
 #include<cstdlib>
+
 using namespace std;
+
 int main()
 {
 	const int n = 42;
 	const int c = 1;
-	
-	vector<int>V1(n);//vector<int> v1;¿ÕÏòÁ¿
-	vector<int>V2(n,c);//³õÊ¼»¯
-	vector<int>V3 = {1,2,3,4,5};//³õÊ¼»¯ 
-	
+
+	vector<int>V1(n);//vector<int> v1;ç©ºå‘é‡
+	vector<int>V2(n,c);//åˆå§‹åŒ–
+	vector<int>V3 = {1,2,3,4,5};//åˆå§‹åŒ– 
+
 	for(size_t i = 0;i<V3.size();++i) 
 		cout<< V3[i]<<" ";
 	cout<<endl;
-    V3.push_back(6);  //Î²²¿Ìí¼Ó
-    cout<<V3.size()<<endl;
-    cout<<V3.front()<<" "<<V3.back()<<endl;
-    V3.pop_back();  //Î²²¿É¾³ı
-    for(auto iter = V3.begin();iter!=V3.end();++iter)//DEV C++±àÒë³ö´í 
-    {
-        *iter = c;
-        cout<<*iter<<" "<<endl;
-    }
-    system("pause");
-    return 0;	
+	V3.push_back(6);  //å°¾éƒ¨æ·»åŠ 
+	cout<<V3.size()<<endl;
+	cout<<V3.front()<<" "<<V3.back()<<endl;
+	V3.pop_back();  //å°¾éƒ¨åˆ é™¤
+	for(auto iter = V3.begin();iter!=V3.end();++iter)//DEV C++ç¼–è¯‘å‡ºé”™ 
+	{
+	*iter = c;
+	cout<<*iter<<" "<<endl;
+	}
+	system("pause");
+	return 0;	
 }
