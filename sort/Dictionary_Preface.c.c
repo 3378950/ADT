@@ -10,7 +10,7 @@ int main()
 	{
 		for(int j=0;j<4-i;j++)
 		{
-			if(strcmp(s[j],s[j+1])>0)//reverse the string£¬base on the order of the dict 
+			if(strcmp(s[j],s[j+1])>0)//reverse the string base on the order of the dict 
 			{
 				strcpy(t,s[j]);
 				strcpy(s[j],s[j+1]);
