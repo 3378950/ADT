@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-template<typename T>//Ä£°å 
+template<typename T>
 
 int binary_search_arry(const T&key,const T data[],int N)
 {
