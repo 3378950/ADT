@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 int main() {
 	int m, n, out[100];
 	memset(out, 0, sizeof(out));

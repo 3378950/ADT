@@ -2,10 +2,16 @@
 
 using namespace std;
 
-void print(int arr[64][64]);
-
 const int n = 64;
 int x = 4,y = 2;
+
+void print(int arr[n][n]) {
+	for(int i = 0; i < n; ++i) {
+		for(int j = 0; j < n; ++j)
+			cout << arr[i][j] << " ";
+		cout<<endl;
+	}
+}
 
 int main()
 {
@@ -35,11 +41,7 @@ int main()
 	print(A); cout<<endl;
 	print(B); cout<<endl;
 	print(C);
+	return 0; 
 } 
-void print(int arr[n][n]) {
-	for(int i = 0; i < n; ++i) {
-		for(int j = 0; j < n; ++j)
-			cout << arr[i][j] << " ";
-		cout<<endl;
-	}
-}
+
+

@@ -10,7 +10,7 @@ int binary_search_arry(const T&key, const T data[], int N) {
 	while (low <= high) {
 		int mid = low + (high - low) / 2;
 		if (key < data[mid]) high = mid + 1;
-		else if (key > data[mid]) low = mid-1;
+		else if (key > data[mid]) low = mid - 1;
 		else return mid;
 	}
 	return -1;
@@ -20,4 +20,5 @@ int main() {
 	int a[] = {1,2,3,4,5};
 	int pos = binary_search_arry(2,a,5);
 	printf("%d",pos+1);
+	return 0; 
 }

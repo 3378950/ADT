@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {
 	int i, j, index, t, a[10];
@@ -23,4 +24,5 @@ int main()
 		else
 		printf("%d",p[i]);
 	}
+	return 0; 
 }
