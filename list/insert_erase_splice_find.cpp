@@ -1,14 +1,14 @@
-#include<iostream>
-#include<set>
-#include<vector>
-#include<algorithm>
-#include<string>
-#include<cstring>
-#include<cstdlib>
-#include<ctime>
-#include<cctype>
-#include<list>
-#include<forward_list>
+#include <iostream>
+#include <set>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <cstring>
+#include <cstdlib>
+#include <ctime>
+#include <cctype>
+#include <list>
+#include <forward_list>
 
 using namespace std;
 
