@@ -1,14 +1,7 @@
-#include<iostream>
-#include<set>
-#include<vector>
-#include<algorithm>
-#include<string>
-#include<cstring>
-#include<cstdlib>
-#include<ctime>
-#include<cctype>
-#include<list>
-#include<forward_list>
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <list>
 
 using namespace std;
 
@@ -53,10 +46,9 @@ void snode_reverse(snode* header){
 	header->next = prev;
 }
 
-int main()
-{
-	vector<snode> v = { {},{1,NULL},{2,NULL},{3,NULL} };
-	struct snode*header = build_list(v);
+int main() {
+	vector<snode> v = { {}, {1, NULL}, {2, NULL},{3, NULL}};
+	struct snode *header = build_list(v);
 	print_list(header);
 	snode_reverse(header);
 	print_list(header);
