@@ -6,7 +6,7 @@ const int MXN = 1e6 + 10;
 
 int q[MXN]; // default is zero
 
-void quick_sort(int q[], int l, int r){
+void quick_sort(int q[], int l, int r) {
     if(l >= r) return ;
     int x = q[(l + r) / 2], i = l - 1, j = r + 1;
     while(i < j) {
