@@ -4,19 +4,17 @@
 
 char s[maxn][maxn],t[maxn];
 
-int main()
-{	
-	for(int i = 0; i < 5; i++)
-	scanf("%s",s[i]);
+int main() {	
+	for(int i = 0; i < 5; i++) scanf("%s", s[i]);
 	for(int i = 0; i < 4; i++) {
 		for(int j = 0; j < 4 - i; j++) {
-			if(strcmp(s[j], s[j+1])>0) { // reverse the string base on the order of the dict 
+			if(strcmp(s[j], s[j+1]) > 0) { // reverse the string base on the order of the dict 
 				strcpy(t, s[j]);
 				strcpy(s[j], s[j + 1]);
 				strcpy(s[j + 1], t);
 			}
 		}
 	}
-	for(int i = 0; i < 5; i++)
-	printf("%s\n",s[i]);
+	for(int i = 0; i < 5; i++) printf("%s\n",s[i]);
+	return 0;
  } 
