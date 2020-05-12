@@ -2,9 +2,10 @@
 #include <string.h>
 #define maxn 10
 
+char s[maxn][maxn],t[maxn];
+
 int main()
-{
-	char s[maxn][maxn],t[maxn];
+{	
 	for(int i = 0; i < 5; i++)
 	scanf("%s",s[i]);
 	for(int i = 0; i < 4; i++) {
